@@ -1,6 +1,6 @@
 # Angular API Project
 
-* App using a DataService with httpClient to get json data from an external API.
+* App using a DataService with httpClient to get json data from an external API. It also submits a simple Contact form.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -30,9 +30,11 @@
 
 ## Technologies
 
-* [Angular v7.2.13](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
+* [Angular v8.0.0](https://angular.io/)
 
-* [RxJS Library v6.4.0](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
+* [Angular CLI v8.0.1](https://cli.angular.io/)
+
+* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
 
 * [The HttpClient in @angular/common/http](https://angular.io/guide/http) offers a simplified client HTTP API for Angular applications that rests on the XMLHttpRequest interface exposed by browsers.
 
@@ -90,9 +92,11 @@ export class DataService {
 
 * API web link could be changed to get different and more complex data.
 
+* Updated to the latest Angular 8 version.
+
 ## Status & To-Do List
 
-* Status: Simple working app that displays API json data and submits a form.
+* Status: Working. Simple working app that displays API json data and submits a form.
 
 * To-Do: add functionality.
 
@@ -102,4 +106,4 @@ export class DataService {
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
