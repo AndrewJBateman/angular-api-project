@@ -4,27 +4,26 @@ import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 @Component({
   selector: "app-contact",
   templateUrl: "./contact.component.html",
-  styleUrls: ["./contact.component.scss"]
+  styleUrls: ["./contact.component.scss"],
 })
 export class ContactComponent implements OnInit {
-
   messageForm: FormGroup;
   submitted = false;
   success = false;
 
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder) {}
 
   ngOnInit() {
     this.messageForm = this.formBuilder.group({
       name: ["", Validators.required],
-      message: ["", Validators.required]
+      message: ["", Validators.required],
     });
   }
 
   // onSubmit method called when user submits the form
   onSubmit() {
     this.submitted = true;
-    
+
     if (this.messageForm.invalid) {
       return;
     }
