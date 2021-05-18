@@ -2,8 +2,12 @@
 
 * App using a DataService with httpClient to get json data from an external API.
 * App also submits a simple Contact form.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-api-project?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-api-project?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-api-project?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-api-project?style=plastic)
 
 ## Table of contents
 
@@ -24,6 +28,7 @@
 * Routing module allows user to navigate between Home, About and Contact pages.
 * API json/image data displayed: firstname, lastname and avatar.
 * Angular FormBuilder used to allow user to submit a form with name and message. Form uses validation.
+* Simple app.
 
 ## Screenshots
 
@@ -101,6 +106,10 @@ export class DataService {
 
 * [Gary Simon of Coursetro Tutorial: Angular 7 Tutorial - Learn Angular 7 by Example](https://coursetro.com/posts/code/171/Angular-7-Tutorial---Learn-Angular-7-by-Example)
 
-## Contact
+## :file_folder: License
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* This project is licensed under the terms of the MIT license.
+
+## :envelope: Contact
+
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
