@@ -37,8 +37,7 @@
 
 ## Technologies
 
-* [Angular v11](https://angular.io/)
-* [Angular CLI v11](https://cli.angular.io/)
+* [Angular v12](https://angular.io/)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
 * [The HttpClient in @angular/common/http](https://angular.io/guide/http) offers a simplified client HTTP API for Angular applications that rests on the XMLHttpRequest interface exposed by browsers.
 
