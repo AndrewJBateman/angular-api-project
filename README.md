@@ -98,7 +98,7 @@ export class DataService {
 
 ## Status & To-Do List
 
-* Status: Working.
+* Status: Working. Updated may 2021.
 * To-Do: Nothing.
 
 ## Inspiration
