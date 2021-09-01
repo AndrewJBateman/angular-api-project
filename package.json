@@ -22,7 +22,7 @@
     "@angular/router": "~12.0.0",
     "core-js": "^3.12.1",
     "rxjs": "^6.6.3",
-    "tar": "^6.1.0",
+    "tar": "^6.1.9",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
