@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  // box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  // height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bacad9;
+
+  .card {
+    width: 360px;
+    height: 180px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 25px;
+    cursor: pointer;
+    justify-content: space-between;
+    margin: 8px;
+
+
+    .card-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .avatar {
+        width: 100px;
+        height: 100px;
+        position: relative;
+      }
+
+      .user-online-indicator {
+        width: 15px;
+        height: 15px;
+        background-color: #53f45a;
+        position: absolute;
+        bottom: 10px;
+        right: 8px;
+        border-radius: 50%;
+        z-index: 4;
+      }
+
+      .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .profile-name h1 {
+        font-size: 28px;
+        font-weight: 500;
+      }
+      .profile-role {
+        color: #6d6d6d;
+      }
+    }
+  }
+}

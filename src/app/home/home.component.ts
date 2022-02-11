@@ -1,22 +1,20 @@
 import { Component, OnInit } from "@angular/core";
-import { DataService } from "../data.service";
+import { Observable } from "rxjs";
+import { apiResponse } from "./data.model";
+import { DataService } from "./data.service";
 
 @Component({
   selector: "app-home",
   templateUrl: "./home.component.html",
-  styleUrls: ["./home.component.scss"]
+  styleUrls: ["./home.component.scss"],
 })
 export class HomeComponent implements OnInit {
-  users: Object;
+  users$: Observable<apiResponse> = new Observable();
 
   constructor(private data: DataService) {}
 
-  // on init the Dataservice getUsers() function supplies a user array object.
-  ngOnInit() {
-    this.data.getUsers().subscribe(data => {
-      this.users = data;
-      console.log(this.users);
-    });
-
-  }
+  // on init the Dataservice getUsers() function supplies a user observable.
+  ngOnInit () {
+    this.users$ = this.data.getUsers();
+  };
 }

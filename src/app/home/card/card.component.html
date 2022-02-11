@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      <div class="avatar">
+        <div class="user-online-indicator"></div>
+        <img
+        [src]="user.avatar"
+          alt="user-image of {{user.email}}"
+        />
+      </div>
+      <div class="profile-name"><h1>{{ user.first_name }} {{ user.last_name }}</h1></div>
+      <div class="profile-role">{{user.email}}</div>
+    </div>
+  </div>
+</div>
