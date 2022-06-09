@@ -11,18 +11,18 @@
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Angular API Project](#:zap-angular-api-project)
+* [:zap: Angular API Project](#zap-angular-api-project)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
   * [:signal_strength: Technologies](#signal_strength-technologies)
   * [:floppy_disk: Setup](#floppy_disk-setup)
-  * [:computer: Code Examples](#code-examples)
-  * [:cool: Features](#features)
-  * [:clipboard: Status & To-Do List](#status--to-do-list)
-  * [:clap: Inspiration](#inspiration)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
   * [:file_folder: License](#file_folder-license)
-  * [:envelope: Contact](#contact)
+  * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
@@ -38,7 +38,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 * [RxJS Library v7](https://angular.io/guide/rx-library) used to [subscribe](http://reactivex.io/documentation/operators/subscribe.html) to the API data [observable](http://reactivex.io/documentation/observable.html).
 * [The HttpClient in @angular/common/http](https://angular.io/guide/http) offers a simplified client HTTP API for Angular applications that rests on the XMLHttpRequest interface exposed by browsers.
 
@@ -76,7 +76,7 @@ ngOnInit () {
 
 ## :clap: Inspiration
 
-* [Gary Simon of Coursetro Tutorial: Angular 7 Tutorial - Learn Angular 7 by Example](https://coursetro.com/posts/code/171/Angular-7-Tutorial---Learn-Angular-7-by-Example)
+* This was a Gary Simon [here is a link to his designcourse.com](https://designcourse.com/) but it is no longer available on-line
 
 ## :file_folder: License
 
