@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { UntypedFormBuilder, UntypedFormGroup, Validators } from "@angular/forms";
+import { FormControl, FormGroup, Validators } from "@angular/forms";
 
 @Component({
   selector: "app-contact",
@@ -7,18 +7,16 @@ import { UntypedFormBuilder, UntypedFormGroup, Validators } from "@angular/forms
   styleUrls: ["./contact.component.scss"],
 })
 export class ContactComponent implements OnInit {
-  messageForm: UntypedFormGroup;
+  messageForm = new FormGroup({
+    name: new FormControl<string | null>("", Validators.required),
+    message: new FormControl<string | null>("", Validators.required),
+  });
   submitted = false;
   success = false;
 
-  constructor(private formBuilder: UntypedFormBuilder) {}
+  constructor() {}
 
-  ngOnInit() {
-    this.messageForm = this.formBuilder.group({
-      name: ["", Validators.required],
-      message: ["", Validators.required],
-    });
-  }
+  ngOnInit() {}
 
   // onSubmit method called when user submits the form
   onSubmit() {
@@ -28,5 +26,6 @@ export class ContactComponent implements OnInit {
       return;
     }
     this.success = true;
+    console.log("form submitted");
   }
 }
