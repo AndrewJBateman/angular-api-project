@@ -76,7 +76,7 @@ ngOnInit () {
 
 ## :clap: Inspiration
 
-* This was a Gary Simon [here is a link to his designcourse.com](https://designcourse.com/) but it is no longer available on-line
+* This was originally a Gary Simon tutorial but it is no longer available on-line. Here is a link to his website: [designcourse.com](https://designcourse.com/) - worth a look
 
 ## :file_folder: License
 
