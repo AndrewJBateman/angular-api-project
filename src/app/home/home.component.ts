@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   constructor(private data: DataService) {}
 
   // on init the Dataservice getUsers() function supplies a user observable.
-  ngOnInit () {
+  ngOnInit() {
     this.users$ = this.data.getUsers();
-  };
+  }
 }

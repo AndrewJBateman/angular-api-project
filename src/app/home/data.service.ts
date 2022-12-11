@@ -11,5 +11,5 @@ export class DataService {
 
   getUsers = (): Observable<apiResponse> => {
     return this.http.get<apiResponse>("https://reqres.in/api/users");
-  }
+  };
 }
