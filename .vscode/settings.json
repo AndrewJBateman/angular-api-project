@@ -1,3 +1,4 @@
 {
-  "html.format.wrapLineLength": 80
+  "html.format.wrapLineLength": 80,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }
