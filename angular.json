@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angular7-API-project": {
+    "angular-api-project": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -15,7 +15,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Angular7-API-project",
+            "outputPath": "dist/angular-api-project",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Angular7-API-project:build"
+            "browserTarget": "angular-api-project:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Angular7-API-project:build:production"
+              "browserTarget": "angular-api-project:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Angular7-API-project:build"
+            "browserTarget": "angular-api-project:build"
           }
         },
         "test": {
@@ -98,7 +98,7 @@
         }
       }
     },
-    "Angular7-API-project-e2e": {
+    "angular-api-project-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -107,11 +107,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Angular7-API-project:serve"
+            "devServerTarget": "angular-api-project:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Angular7-API-project:serve:production"
+              "devServerTarget": "angular-api-project:serve:production"
             }
           }
         }
